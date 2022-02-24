@@ -37,7 +37,6 @@
                                 Command="{Binding Path=BindingContext.RemoveTodoCommand, Source={x:Reference TodoList}}"
                                 CommandParameter="{Binding .}"
                                 Source="delete.png"
-                                Scale="0.5"
                                 BackgroundColor="Transparent"   
                             />        
                         </FlexLayout>
